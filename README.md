@@ -4,3 +4,12 @@ Details about the Project
 1. For frontend (Html,css,js) are used. 
 2. For backend (Django Framework is used).
 
+Note. for using this project 
+1.you can delete pycache and migrations file and use following commands
+python manage.py migrate
+python manage.py makemigrations
+python manage.py runserver
+
+and for creating superuser before login
+1. python manage.py createsuperuser
+
